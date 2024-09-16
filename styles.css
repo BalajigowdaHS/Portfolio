@@ -466,11 +466,14 @@ h3 {
 
 .projects {
 	.project {
-		display:flex;
-		gap:30px;
-		@media(max-width:1024px){
-			flex-direction:column;
-		}
+        display:grid;
+        gap:30px;
+		flex-wrap: wrap; /* Ensures projects wrap to the next line after 3 in a row */
+		grid-template-columns: repeat(3, 1fr);
+        @media(max-width:1024px){
+            flex-direction:column;
+        }
+	
 		article {
 			background-color: var(--yellow-100);
 			padding:30px;
