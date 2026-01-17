@@ -230,6 +230,10 @@ p {
   color: var(--muted);
 }
 
+.about-card .paragraph-gap {
+  margin-top: 12px;
+}
+
 .hero {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
