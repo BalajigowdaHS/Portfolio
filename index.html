@@ -1,375 +1,777 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portfolio Web Design</title>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="./styles.css">
-	<script src="./scripts.js"></script>
-	<link rel="icon" type="image/jpg" href="./imgs/favicon.jpg">
-</head>
-<body>
-	<header>
-		<a href="#" class="logo-holder">
-			<div class="logo">BG</div>
-			<div class="logo-text">Balajigowda</div>
-		</a>
-		<nav>
-			<ul id="menu">
-				<li>
-					<a href="#">Home</a>
-				</li>
-				<li>
-					<a href="#skills">Skills</a>
-				</li>
-				<li>
-					<a href="#projects">Projects</a>
-				</li>
-				<li>
-					<a href="#work-experience">Experience</a>
-				</li>
-				<li>
-					<a href="mailto:balajigowdahs04@gmail.com" class="button">Contact Me</a>
-				</li>
-                
-			</ul>
-			<a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
-				<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-					<path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
-				</svg>
-			</a>
-		</nav>
-	</header>
-	<main>
-		<section class="hero container">
-			<div class="hero-blue">
-				<div>
-					<h1><small>Hi I'm</small>
-						Balajigowda
-					</h1>
-					<p>
-						I am a Data Science professional with a Master's in Business Analytics from The George Washington University. Skilled in machine learning, data visualization, and statistical analysis, I specialize in transforming complex data into actionable insights. With expertise in Python, R, and SQL, I've successfully built predictive models and developed interactive dashboards. I am passionate about leveraging data to solve business challenges and drive decision-making. My experience spans data science, research, and business analytics in diverse industries, including consulting and market research. <span>Passionate about data-driven decision-making, I am eager to pursue a career in analytics as a Data Scientist or Business Analyst.</span>
-					</p>
-					<div class="call-to-action">
-						<a href="./imgs/2.balajigowda.pdf" class="button black">
-							View Resume
-						</a>
-						<a href="mailto:balajigowdahs04@gmail.com" class="button white">
-							Contact Me
-						</a>
-					</div>
-					<div class="social-links">
-						<a href="https://github.com/BalajigowdaHS">
-							<img src="./imgs/github.png" alt="GitHub" width="48" />
-						</a>
-						<a href="https://www.linkedin.com/in/balajigowdahs/">
-							<img src="./imgs/linkedin.png" alt="LinkedIn" width="48" />
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="hero-yellow">
-				<img src="./imgs/Profile2.png" alt="Balajigowda" width="100%" />
-			</div>
-		</section>
-		<section class="logos container">
-			<div class="marquee">
-				<div class="track">
-                    <img src="./imgs/Excel.png" width="135" alt="Excel" />
-					<img src="./imgs/python.png" alt="Python" width="135" />
-					<img src="./imgs/NumPy.png" alt="Numpy" width="135" />
-					<img src="./imgs/Pandas.png" alt="Pandas" width="135" />
-					<img src="./imgs/Matplotlib.png" width="135" alt="Matplotlib" />
-					<img src="./imgs/Seaborn.png" width="135" alt="Seaborn" />
-					<img src="./imgs/Scikit Learn.png" width="135" alt="Scikit-learn" />
-					<img src="./imgs/Tensor Flow.png" alt="Tensor-Flow" width="135" />
-					<img src="./imgs/Power BI.png" width="135" alt="Power BI" />
-					<img src="./imgs/Tableau.png" width="135" alt="Tableau" />
-                    <img src="./imgs/Google Analytics.png" alt="Google Analytics" width="135" />
-                    <img src="./imgs/R Programming.png" width="135" alt="R Programming" />
-                    <img src="./imgs/SQL.png" width="135" alt="SQL" />  
-					<img src="./imgs/SAS.png" width="135" alt="SAS" />
-					<img src="./imgs/Stata.png" alt="Stata" width="135" />
-					<img src="./imgs/aws.png" width="135" alt="AWS" />
-				</div>
-			</div>
-		</section>
-		<section id="skills" class="skills container">
-			<h2>
-				<small></small>
-				About Me
-			</h2>
-			<div class="holder-blue">
-				<div class="left-column">
-					<h3>Programming Languages</h3>
-					<ul>
-						<li>Python</li>
-						<li>R Programming</li>
-						<li>SQL</li>
-						<li>Stata</li>
-						<li>SAS</li>
-					</ul>
-					<h3>Other Tools & Technologies</h3>
-					<ul>
-						<li>Machine Learning</li>
-						<li>Deep Learning</li>
-						<li>Natural Language Processing</li>
-						<li>Data Visualization (Power BI, Tableau, SAS)</li>
-						<li>Data Cleaning</li>
-						<li>Statistical Anaysis</li>
-                        <li>Microsoft Excel</li>
-					</ul>
-					<h3>Certifications</h3>
-					<ul>
-						<li>Google Analytics</li>
-						<li>Azure Data Scientist 
-							Associate</li>
-					</ul>
-				</div>
-				<div class="right-column">
-					<h3>A bit about me</h3>
-					<p>
-						Hello! I’m Balajigowda Hadripura Sureshkumar, a Master of Science in Business Analytics graduate from The George Washington University, having completed my degree in December 2024. With a strong foundation in Python, R, SQL, and Stata, my focus lies in Machine Learning, Deep Learning, and data-driven analytics. I’ve gained hands-on experience with cutting-edge tools like TensorFlow, Sklearn, and AWS, and have applied these skills to meaningful projects across industries such as finance, healthcare, and more, turning complex data into actionable insights.
-					</p>
-					<p>
-						My professional journey includes roles at FI Consulting, Cognizant, and Fortune Spiritz, where I applied my analytical skills to diverse challenges. At FI Consulting, I worked on uncovering biases in lending practices through machine learning models and data analysis. My experience at Cognizant involved developing automated data retrieval systems, improving efficiency in data collection and reporting. At Fortune Spiritz, I focused on building interactive dashboards for sales performance, streamlining processes, and enabling data-driven decision-making. These experiences have deepened my passion for using data to solve complex problems, and I am excited to continue making an impact in the field of data science.
-					</p>
-				</div>
-			</div>
-		</section>
-		<section id="education" class="education">
-			<h2>
-				<small></small>
-				Education
-			</h2>
-			<div class="collage">
-				<article>
-					<figure>
-						<div>
-							<img src="./imgs/GWU3.jpg" alt="The George Washington University" width="100%" />
-							<figcaption>
-								The George Washington University
-							</figcaption>
-						</div>
-					</figure>
-					<h3>The George Washington University</h3>
-					<div>Master's in Business Analytics</div>
-					<p>I’ve taken courses like Machine Learning, Data Mining, and Big Data for International Business, where I honed my skills in predictive modeling, statistical analysis, and data visualization to tackle complex business problems.</p>
-				</article>
-				<article>
-					<figure>
-						<div>
-							<img src="./imgs/Dr. AIT.png" alt="Dr.Ambedkar Institution of Technology" width="100%" />
-							<figcaption>
-								Dr.Ambedkar Institution of Technology
-							</figcaption>
-						</div>
-					</figure>
-					<h3>Dr.Ambedkar Institution of Technology</h3>
-					<div>Bachelor of Mechanical Engineering</div> 
-					<p>I explored courses such as Thermodynamics, Fluid Mechanics, and Machine Design, where I gained hands-on experience in applying engineering concepts, enhancing my problem-solving abilities, and designing efficient systems for real-world challenges. </p>
-				</article>
-			</div>
-        </section>
-        <section id="work-experience" class="work-experience">
-			<h2>
-				<small></small>
-				Work Experience
-			</h2>
-			<div class="jobs">
-				<article>
-					<figure>
-						<div>
-							<img src="./imgs/GWU1.png" alt="George Washington University" width="100%" />
-							<figcaption>
-								George Washington University
-							</figcaption>
-						</div>
-					</figure>
-					<h3>George Washington University</h3>
-					<div>Research Assistant </div> <div> Oct 2024 - Dec 2024 </div>
-					<p>I conducted in-depth data analysis and statistical modeling to support ongoing research projects. I worked with large datasets, applied machine learning techniques, and generated insights that contributed to impactful findings. My role also involved data visualization and report preparation to effectively communicate results.</p>
-				</article>
-				<article>
-					<figure>
-						<div>
-							<img src="./imgs/FIConsulting.jpg" alt="FIConsulting" width="100%" />
-							<figcaption>
-								FI Consulting
-							</figcaption>
-						</div>
-					</figure>
-					<h3>FI Consulting</h3>
-					<div>Data Scientist</div> <div> Jan 2024 - May 2024 </div>
-					<p>Analyzed HMDA data to identify fair lending violations, developed machine learning models for predictive insights, and created a Power BI dashboard to communicate findings to stakeholders.</p>
-				</article>
-				<article>
-					<figure>
-						<div>
-							<img src="./imgs/Fortune Spiritz.png" alt="Fortune Spiritz" width="100%" />
-							<figcaption>
-								Fortune Spiritz
-							</figcaption>
-						</div>
-					</figure>
-					<h3>Fortune Spiritz</h3>
-					<div>Analyst</div> <div> April 2022 - July 2023 </div>
-					<p>Analyzed sales and inventory data to uncover key insights that improved decision-making. I built interactive dashboards to track performance metrics, helping streamline operations and enhance overall efficiency.</p>
-				</article>
-				<article>
-					<figure>
-						<div>
-							<img src="./imgs/Cognizant.jpg" alt="Cognizant" width="100%" />
-							<figcaption>
-								Cognizant
-							</figcaption>
-						</div>
-					</figure>
-					<h3>Cognizant</h3>
-					<div>Analyst Intern</div> <div> November 2021 - April 2022 </div>
-					<p>Developed an automated data retrieval system to streamline processes and improve efficiency. I also took on a leadership role, managing a cohort of 40 members, which strengthened my project coordination and team management skills in a fast-paced environment.</p>
-				</article>
-		            
-                </div>
-                    
-			</div>
-        </section>
-		<section id="projects" class="projects">
-			<h2>
-				<small>Recent</small>
-				Projects
-			</h2>
-			<div class="project">
-				</article>
-				<article>
-					<figure>
-						<div>
-							<img src="./imgs/HMDA.jpg" alt="Machine Learning for Fair Lending" width="100%" />
-							<figcaption>
-								Machine Learning for Fair Lending
-							</figcaption>
-						</div>
-					</figure>
-					<h3>Machine Learning for Fair Lending</h3>
-					<p>The project aimed to examine possible fair lending violations in the HMDA and high-priced loan datasets. It centered on developing machine learning models to forecast lending outcomes, addressing algorithmic biases to ensure equitable treatment across diverse demographic groups.</p>
-                    <div class="social-links">
-						<a href="https://github.com/BalajigowdaHS/Exploring_Machine_Learning_and_De-Biasing_Technique_for_Fair_Lending">
-							<img src="./imgs/github.png" alt="GitHub" width="48" />
-						</a>
-                </article>
-				<article>
-					<figure>
-						<div>
-							<img src="./imgs/Diabetics.png" alt="Predictive Modeling of Diabetes " width="100%" />
-							<figcaption>
-								Predictive Modeling of Diabetes 
-							</figcaption>
-						</div>
-					</figure>
-					<h3>Predictive Modeling of Diabetes </h3>
-					<p>The primary goal is to leverage machine learning techniques to identify key factors in diabetes and predict its onset. By modeling these factors, we aim to provide actionable insights for early detection and prevention, addressing a chronic disease with significant global health implications.</p>
-				    <div class="social-links"></div>
-						<a href="https://github.com/BalajigowdaHS/Predictive_Modeling_of_Diabetes_With_Classification_Algorithm">
-							<img src="./imgs/github.png" alt="GitHub" width="48" />
-						</a>
-                </article>
-				<article>
-					<figure>
-						<div>
-							<img src="./imgs/brain tumor.webp" alt="Brain Tumor Detection Using CNN" width="100%" />
-							<figcaption>
-								Brain Tumor Detection Using CNN
-							</figcaption>
-						</div>
-					</figure>
-					<h3>Brain Tumor Detection Using CNN</h3>
-					<p>This project focuses on developing a deep learning model using CNN in PyTorch to detect brain tumors from MRI images. The model automates the detection process, reducing the need for manual interpretation and enhancing accuracy. By training on labeled datasets, it improves diagnostic efficiency and supports healthcare professionals in identifying brain tumors with high precision.</p>
-				    <div class="social-links"></div>
-						<a href="https://github.com/BalajigowdaHS/Brain-Tumor-Detection-Using-CNN-Models">
-							<img src="./imgs/github.png" alt="GitHub" width="48" />
-						</a>
-                </article>
-				<article>
-					<figure>
-						<div>
-							<img src="./imgs/Customer Churn.png" alt="Customer Churn Prediction" width="100%" />
-							<figcaption>
-								Customer Churn Prediction
-							</figcaption>
-						</div>
-					</figure>
-					<h3>Customer Churn Prediction</h3>
-					<p>This project aims to address customer churn in the competitive banking landscape by leveraging predictive analytics. Our goal is to develop models that forecast customers leaving the bank and implement targeted retention strategies to safeguard revenue streams and enhance long-term profitability.</p>
-				    <div class="social-links"></div>
-						<a href="https://github.com/BalajigowdaHS/Customer-Churn-Prediction">
-							<img src="./imgs/github.png" alt="GitHub" width="48" />
-						</a>
-                </article>
-                <article>
-					<figure>
-						<div>
-							<img src="./imgs/Crime Analytics.jpeg" alt="Exploring Crime Trends in Los Angles (2020-2023)" width="100%" />
-							<figcaption>
-								Crime Trends in Los Angles (2020-2023)
-							</figcaption>
-						</div>
-					</figure>
-					<h3>Crime Trends in Los Angles (2020-2023)</h3>
-					<p>Analyzed Los Angeles crime data (2020-2023) to identify trends and patterns. Examined annual, seasonal, and monthly crime rates, highlighting fluctuations and peak periods. Investigated the resolution status of top crime types. Developed interactive dashboards and reports to present findings.</p>
-				    <div class="social-links"></div>
-						<a href="https://github.com/BalajigowdaHS/Los_Angeles_Crime_Analytics">
-							<img src="./imgs/github.png" alt="GitHub" width="48" />
-						</a>
-                </article>
-				<article>
-					<figure>
-						<div>
-							<img src="./imgs/smsspam.webp" alt="Spam Classification" width="100%" />
-							<figcaption>
-								Spam Classification
-							</figcaption>
-						</div>
-					</figure>
-					<h3>Spam Classification</h3>
-					<p>Designed and implemented a machine learning model to classify SMS messages as spam or non-spam. Utilized Word2Vec to generate vector representations of the text and employed both Word2Vec and averaged Word2Vec embeddings for feature extraction. Applied Logistic Regression to enhance predictive accuracy. Conducted thorough model evaluation, achieving a high level of accuracy in spam detection.</p>
-				    <div class="social-links"></div>
-						<a href="https://github.com/BalajigowdaHS/Spam-Classification">
-							<img src="./imgs/github.png" alt="GitHub" width="48" />
-						</a>
-                </article>
-			</div>
-
-<section id="contact" class="skills container">
-    <h2><small>Get in Touch</small> Contact Me</h2>
-    <div class="holder-blue">
-      <div class="centered">
-        <div class="social-links">
-          <a href="https://github.com/BalajigowdaHS/"><img src="./imgs/github.png" alt="GitHub" width="50" /><figcaption>GitHub</figcaption></a>
-          <a href="https://www.linkedin.com/in/balajigowdahs/"><img src="./imgs/linkedin.png" alt="LinkedIn" width="50" /><figcaption>LinkedIn</figcaption></a>
-          <a href="mailto:balajigowdahs04@gmail.com"><img src="./imgs/email.png" alt="Email" width="50" /><figcaption>Email</figcaption></a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Balajigowda H S | Data Scientist</title>
+    <meta
+      name="description"
+      content="Balajigowda H S - Data Scientist, AI Engineer, and Data Analyst. Projects, experience, and contact."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" type="image/jpg" href="./imgs/favicon.jpg" />
+  </head>
+  <body>
+    <a class="skip-link" href="#home">Skip to content</a>
+    <header class="site-header">
+      <nav class="nav">
+        <a class="brand" href="#home" aria-label="Go to home">
+          <span class="brand-mark">BG</span>
+          <span class="brand-text">Balajigowda</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links" data-nav>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#education">Education</a>
+          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#experience">Experience</a>
+          <a class="nav-link" href="#certifications">Certifications</a>
+          <a class="nav-link" href="#contact">Contact</a>
+          <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+            Dark Mode
+          </button>
         </div>
-        <footer>
-          <nav>
-            <ul class="nav-links">
-              <li><a href="#skills">About</a></li>
-              <li><a href="#work-experience">Experience</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </nav>
-          <p>&copy; 2025 Balajigowda. All Rights Reserved.</p>
-        </footer>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-content reveal">
+          <h1>Balajigowda H S</h1>
+          <p class="hero-title">Data Science &amp; Analytics</p>
+          <p class="hero-subtitle">
+            Product &amp; Business Insights &#8226; Machine Learning &#8226; Decision Support
+          </p>
+          <p class="hero-lede">
+            I support data-driven decisions by combining analytics, machine learning, and business
+            context, partnering across teams to deliver measurable impact.
+          </p>
+          <div class="cta-row">
+            <a class="button primary" href="./assets/resume.pdf">View Resume</a>
+            <a class="button ghost" href="#contact">Contact</a>
+          </div>
+          <div class="chip-row">
+            <span class="chip">Python</span>
+            <span class="chip">SQL</span>
+            <span class="chip">Machine Learning</span>
+            <span class="chip">LLMs</span>
+            <span class="chip">Dashboards</span>
+          </div>
+        </div>
+        <div class="hero-card reveal">
+          <div class="hero-media-wrap">
+            <img
+              class="hero-media"
+              src="./assets/profilevideo.gif"
+              alt="Profile video of Balajigowda"
+              loading="lazy"
+              width="520"
+              height="520"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">
+            <img class="eyebrow-icon" src="./assets/icon-snapshot.svg" alt="" aria-hidden="true" />
+            Snapshot
+          </p>
+          <h2>Who I Am</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-card reveal">
+            <h3>Profile</h3>
+            <p>
+              I’m a Data Science & Analytics professional with a Master’s in Business Analytics from The George Washington University, passionate about using data to inform better decisions.
+
+My experience spans data science, research, and business analytics, where I’ve built predictive models, designed analytical dashboards, and applied statistical methods to uncover meaningful patterns. I thrive in roles that sit between data and business—working with stakeholders to translate complex analysis into insights that drive strategy, efficiency, and measurable impact.
+
+            </p>
+            <p>
+              My experience spans data science, research, and business analytics in consulting and
+              market research. I am passionate about leveraging data to solve business challenges
+              and drive decision-making.
+            </p>
+          </div>
+          <div class="about-panel reveal" id="education">
+            <h3>Education</h3>
+            <div class="education-item">
+              <p class="edu-title">The George Washington University</p>
+              <p class="role">Master of Science, Business Analytics | 2024</p>
+              <p>
+                Focused on machine learning, data mining, and data visualization with applied
+                analytics projects.
+              </p>
+            </div>
+            <div class="education-item">
+              <p class="edu-title">Dr. Ambedkar Institute of Technology</p>
+              <p class="role">Bachelor of Mechanical Engineering</p>
+              <p>
+                Built analytical foundations through engineering problem solving and systems design.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">
+            <img class="eyebrow-icon" src="./assets/icon-gear.svg" alt="" aria-hidden="true" />
+            Gear
+          </p>
+          <h2>Analytics Arsenal</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <img src="./assets/icon-analytics.svg" alt="" aria-hidden="true" />
+            <h3>Analytics + BI</h3>
+            <p>SQL, Excel, Power BI, Tableau, SAS, Google Analytics</p>
+          </article>
+          <article class="skill-card reveal">
+            <img src="./assets/icon-ds.svg" alt="" aria-hidden="true" />
+            <h3>Data Science</h3>
+            <p>Python, R, sklearn, TensorFlow, statistical modeling</p>
+          </article>
+          <article class="skill-card reveal">
+            <img src="./assets/icon-llm.svg" alt="" aria-hidden="true" />
+            <h3>AI / NLP</h3>
+            <p>Prompting, RAG patterns, NLP pipelines, vector search</p>
+          </article>
+          <article class="skill-card reveal">
+            <img src="./assets/icon-eng.svg" alt="" aria-hidden="true" />
+            <h3>Data Engineering + Ops</h3>
+            <p>ETL workflows, AWS, data cleaning, pipeline automation, Git</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">
+            <img class="eyebrow-icon" src="./assets/icon-lab.svg" alt="" aria-hidden="true" />
+            Lab
+          </p>
+          <h2>Work in Focus</h2>
+        </div>
+        <div class="projects-lede reveal">
+          <p>
+            Highlighting 10+ data projects across ML, analytics, and automation that support
+            business and product decisions. Replace impact metrics with verified results.
+          </p>
+        </div>
+        <div class="filter-row reveal" role="tablist" aria-label="Filter projects by tag">
+          <button class="filter-chip active" data-filter="all" role="tab">All</button>
+          <button class="filter-chip" data-filter="ml" role="tab">ML</button>
+          <button class="filter-chip" data-filter="dashboard" role="tab">Dashboards</button>
+          <button class="filter-chip" data-filter="nlp" role="tab">NLP</button>
+          <button class="filter-chip" data-filter="cv" role="tab">Computer Vision</button>
+        </div>
+        <div class="project-grid">
+          <article class="project-card featured-project reveal" data-tags="ml dashboard">
+            <img src="./assets/project-fair-lending.svg" alt="Fair lending project thumbnail" loading="lazy" />
+            <div class="project-body">
+              <h3>Machine Learning for Fair Lending</h3>
+              <p class="outcome">
+                Built an end-to-end bias detection workflow combining machine learning models,
+                fairness metrics, and cohort analysis to surface potential disparities in lending
+                outcomes. Delivered insights through a compliance-ready Power BI dashboard for
+                decision support.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Python</span>
+                <span class="tag">Machine Learning</span>
+                <span class="tag">Power BI</span>
+                <span class="tag">Compliance</span>
+              </div>
+              <div class="button-row">
+                <a class="button small" data-open="case-fair-lending" href="#">Details</a>
+                <a class="button ghost small" href="https://github.com/BalajigowdaHS/Exploring_Machine_Learning_and_De-Biasing_Technique_for_Fair_Lending">Code</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card reveal" data-tags="analytics">
+            <img src="./assets/project-apple-maps.svg" alt="Apple Maps experience analytics thumbnail" loading="lazy" />
+            <div class="project-body">
+              <h3>Apple Maps Experience Intelligence</h3>
+              <p class="outcome">
+                Analyzed large-scale user feedback and operational signals to identify experience pain points and opportunities for product improvement within Apple Maps.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Product Analytics</span>
+                <span class="tag">Python</span>
+                <span class="tag">User Experience</span>
+              </div>
+              <div class="button-row">
+                <a class="button small" data-open="case-apple-maps" href="#">Details</a>
+                <a class="button ghost small" href="https://github.com/BalajigowdaHS/apple-maps-experience-intelligence">Code</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card reveal" data-tags="nlp">
+            <img src="./assets/project-insurance.svg" alt="Insurance claims intelligence thumbnail" loading="lazy" />
+            <div class="project-body">
+              <h3>Insurance Claims Intelligence (RAG-Based)</h3>
+              <p class="outcome">
+                Built a retrieval-augmented generation (RAG) system to answer insurance claim questions by grounding LLM responses in policy documents and claim guidelines.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Python</span>
+                <span class="tag">RAG</span>
+                <span class="tag">LLMs</span>
+                <span class="tag">Applied AI</span>
+              </div>
+              <div class="button-row">
+                <a class="button small" data-open="case-insurance-rag" href="#">Details</a>
+                <a class="button ghost small" href="https://github.com/BalajigowdaHS/Insurance-Claim-Assistant">Code</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card reveal" data-tags="ml">
+            <img src="./assets/project-churn.svg" alt="Customer churn prediction project thumbnail" loading="lazy" />
+            <div class="project-body">
+              <h3>Customer Churn Prediction</h3>
+              <p class="outcome">
+                Built churn prediction models and cohort-based risk scores to identify at-risk customers and support targeted retention strategies.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Python</span>
+                <span class="tag">Machine Learning</span>
+                <span class="tag">Banking Analytics</span>
+              </div>
+              <div class="button-row">
+                <a class="button small" data-open="case-churn" href="#">Details</a>
+                <a class="button ghost small" href="https://github.com/BalajigowdaHS/Customer-Churn-Prediction">Code</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card reveal" data-tags="ml">
+            <img src="./assets/project-segmentation.svg" alt="Customer segmentation project thumbnail" loading="lazy" />
+            <div class="project-body">
+              <h3>Customer Segmentation Using Clustering</h3>
+              <p class="outcome">
+                Segmented customers using behavioral and demographic data to uncover distinct customer groups and enable targeted marketing, personalization, and retention strategies.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Python</span>
+                <span class="tag">Clustering</span>
+                <span class="tag">Customer Analytics</span>
+                <span class="tag">Business Insights</span>
+              </div>
+              <div class="button-row">
+                <a class="button small" data-open="case-segmentation" href="#">Details</a>
+                <a class="button ghost small" href="https://github.com/BalajigowdaHS/Customer-Segmentation">Code</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card reveal" data-tags="cv ml">
+            <img src="./assets/project-brain.svg" alt="Brain tumor detection project thumbnail" loading="lazy" />
+            <div class="project-body">
+              <h3>Brain Tumor Detection Using CNN</h3>
+              <p class="outcome">
+                Designed and evaluated a CNN-based pipeline for automated brain tumor detection
+                from MRI scans, focusing on model performance, robustness, and clinical evaluation
+                metrics.
+              </p>
+              <div class="tag-row">
+                <span class="tag">PyTorch</span>
+                <span class="tag">Computer Vision</span>
+                <span class="tag">Healthcare AI</span>
+              </div>
+              <div class="button-row">
+                <a class="button small" data-open="case-brain" href="#">Details</a>
+                <a class="button ghost small" href="https://github.com/BalajigowdaHS/Brain-Tumor-Detection-Using-CNN-Models">Code</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card featured-project reveal" data-tags="ml">
+            <img src="./assets/project-diabetes.svg" alt="Diabetes prediction project thumbnail" loading="lazy" />
+            <div class="project-body">
+              <h3>Predictive Modeling of Diabetes</h3>
+              <p class="outcome">
+                Developed predictive models for early diabetes risk screening and analyzed feature
+                importance to surface key clinical drivers supporting practitioner review and
+                decision-making.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Python</span>
+                <span class="tag">Classification</span>
+                <span class="tag">Healthcare Analytics</span>
+              </div>
+              <div class="button-row">
+                <a class="button small" data-open="case-diabetes" href="#">Details</a>
+                <a class="button ghost small" href="https://github.com/BalajigowdaHS/Predictive_Modeling_of_Diabetes_With_Classification_Algorithm">Code</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card reveal" data-tags="dashboard">
+            <img src="./assets/project-crime.svg" alt="Crime analytics project thumbnail" loading="lazy" />
+            <div class="project-body">
+              <h3>Crime Trends in Los Angeles</h3>
+              <p class="outcome">
+                Analyzed and visualized crime data to uncover seasonal patterns, geographic
+                hotspots, and resolution trends using interactive Tableau dashboards.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Tableau</span>
+                <span class="tag">Exploratory Analytics</span>
+              </div>
+              <div class="button-row">
+                <a class="button small" data-open="case-crime" href="#">Details</a>
+                <a class="button ghost small" href="https://github.com/BalajigowdaHS/Los_Angeles_Crime_Analytics">Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">
+            <img class="eyebrow-icon" src="./assets/icon-trail.svg" alt="" aria-hidden="true" />
+            Trail
+          </p>
+          <h2>Where I've Worked</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div>
+              <h3>Rebecca Everlene Trust Company</h3>
+              <p class="role">Data Science &amp; Analytics Analyst | Mar 2025 - Present</p>
+              <ul>
+                <li>
+                  Led data cleaning, validation, and consolidation across multiple internal
+                  datasets to improve reporting accuracy and decision reliability.
+                </li>
+                <li>
+                  Built analytical workflows using Python and SQL to transform raw data into
+                  analysis-ready datasets.
+                </li>
+                <li>
+                  Developed dashboards and recurring reports to track performance trends and
+                  support leadership decision-making.
+                </li>
+                <li>
+                  Partnered with cross-functional stakeholders to translate business questions
+                  into actionable analytical outputs.
+                </li>
+                <li>
+                  Identified data quality gaps and implemented standardized checks, improving
+                  consistency and reducing downstream rework.
+                </li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div>
+              <h3>George Washington University</h3>
+              <p class="role">Research Assistant | Oct 2024 - Dec 2024</p>
+              <ul>
+                <li>
+                  Analyzed large-scale research datasets to identify statistically significant
+                  trends supporting ongoing academic and applied studies.
+                </li>
+                <li>
+                  Applied statistical modeling and hypothesis testing to validate research
+                  questions with evidence-backed conclusions.
+                </li>
+                <li>
+                  Designed dashboards and analytical reports to communicate insights to faculty and
+                  non-technical stakeholders.
+                </li>
+                <li>
+                  Optimized data preparation workflows, reducing analysis turnaround time and
+                  improving reproducibility.
+                </li>
+                <li>
+                  Translated analytical findings into actionable insights for decision-oriented
+                  audiences.
+                </li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div>
+              <h3>FI Consulting</h3>
+              <p class="role">Data Scientist | Jan 2024 - May 2024</p>
+              <ul>
+                <li>
+                  Built and evaluated machine learning models on HMDA datasets to identify
+                  potential fair lending risk and compliance gaps.
+                </li>
+                <li>
+                  Developed interactive Power BI dashboards to surface risk indicators and support
+                  compliance decision-making.
+                </li>
+                <li>
+                  Partnered with business stakeholders to translate model outputs into clear,
+                  actionable recommendations.
+                </li>
+                <li>
+                  Documented model assumptions, validation metrics, and limitations to ensure
+                  audit readiness.
+                </li>
+                <li>
+                  Aligned analytics deliverables with stakeholder KPIs and compliance objectives.
+                </li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div>
+              <h3>Fortune Spiritz</h3>
+              <p class="role">Analyst | Apr 2022 - Jul 2023</p>
+              <ul>
+                <li>
+                  Analyzed sales, inventory, and demand data to identify key growth drivers and
+                  operational inefficiencies.
+                </li>
+                <li>
+                  Built executive-facing dashboards that streamlined weekly business reviews and
+                  improved decision velocity.
+                </li>
+                <li>
+                  Automated recurring reporting workflows, reducing manual effort and accelerating
+                  insight delivery.
+                </li>
+                <li>
+                  Standardized KPI tracking to align performance metrics with leadership
+                  priorities.
+                </li>
+                <li>
+                  Collaborated with sales and operations teams to refine product mix and inventory
+                  optimization strategies.
+                </li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div>
+              <h3>Cognizant</h3>
+              <p class="role">Analyst Intern | Nov 2021 - Apr 2022</p>
+              <ul>
+                <li>Automated data extraction and reporting processes, reducing manual reporting cycles.</li>
+                <li>Coordinated a 40-member project cohort, improving task tracking and delivery timelines.</li>
+                <li>Collaborated with cross-functional teams in a fast-paced enterprise environment.</li>
+                <li>Implemented and documented QA checks to improve data accuracy and reliability.</li>
+                <li>
+                  Translated business requirements into structured data tasks to support analytics
+                  initiatives.
+                </li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="certifications" class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Certifications</p>
+          <h2>Proof of continuous learning</h2>
+        </div>
+        <div class="cert-grid">
+          <div class="cert-card reveal">
+            <h3>Google Analytics</h3>
+            <p>Certified in measurement planning, reporting, and optimization.</p>
+          </div>
+          <div class="cert-card reveal">
+            <h3>Azure Data Scientist Associate</h3>
+            <p>Validated skills across ML pipelines and Azure ML services.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Let us build something together</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-card reveal">
+            <h3>Reach out directly</h3>
+            <p>Email is the fastest way to reach me. I respond within 24 hours.</p>
+            <div class="button-row">
+              <a class="button primary" href="mailto:balajigowdahs04@gmail.com">Email Me</a>
+              <a class="button ghost" href="https://www.linkedin.com/in/balajigowdahs/">LinkedIn</a>
+              <a class="button ghost" href="https://github.com/BalajigowdaHS">GitHub</a>
+            </div>
+          </div>
+          <form
+            class="contact-form reveal"
+            action="mailto:balajigowdahs04@gmail.com"
+            method="post"
+            enctype="text/plain"
+          >
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="4" placeholder="Tell me about your project"></textarea>
+            </label>
+            <button class="button primary" type="submit">Send Message</button>
+            <p class="form-note">Form uses mailto. No data is stored.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <a class="footer-brand" href="#home">Balajigowda H S</a>
+        <p>Data Scientist | AI Engineer | Data Analyst</p>
+      </div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-actions">
+        <a class="button ghost small" href="./assets/resume.pdf">Download Resume</a>
+        <p>© 2025 Balajigowda. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <div class="modal" aria-hidden="true" role="dialog" aria-label="Project case study">
+      <div class="modal-content" role="document">
+        <button class="modal-close" type="button" aria-label="Close case study">×</button>
+        <div class="modal-body"></div>
       </div>
     </div>
-	</main>
 
+    <template id="case-fair-lending">
+      <h3>Machine Learning for Fair Lending</h3>
+      <p>
+        <strong>Problem:</strong> Financial institutions must identify and mitigate potential bias
+        in lending outcomes across demographic groups while meeting regulatory and audit
+        requirements.
+      </p>
+      <p>
+        <strong>Approach:</strong> Built supervised classification models on lending-style datasets
+        and evaluated outcomes using fairness metrics and cohort analysis. Developed a Power BI
+        dashboard to surface disparity indicators and model outputs in a format suitable for
+        compliance and policy review.
+      </p>
+      <p><strong>Tech Stack:</strong> Python, scikit-learn, Power BI</p>
+      <p>
+        <strong>Results &amp; Impact:</strong>
+      </p>
+      <ul>
+        <li>Enabled structured review of lending outcomes across protected classes</li>
+        <li>Provided transparent, model-backed insights to support compliance decisions</li>
+        <li>Improved visibility into risk indicators through interactive dashboards</li>
+      </ul>
+      <p>
+        <strong>What I'd Improve Next:</strong> Add model explainability (e.g., SHAP), automate bias
+        monitoring, and implement alerting for threshold breaches.
+      </p>
+      <div class="case-visuals">
+        <img src="./assets/project-fair-lending.svg" alt="Fair lending dashboard" />
+        <img src="./assets/fairlendingmetrics.png" alt="Fair lending metrics summary" />
+      </div>
+    </template>
+    <template id="case-diabetes">
+      <h3>Predictive Modeling of Diabetes</h3>
+      <p>
+        <strong>Problem:</strong> Early identification of diabetes risk is critical for proactive
+        clinical intervention and population health management.
+      </p>
+      <p>
+        <strong>Approach:</strong> Engineered predictive features from patient health indicators
+        and trained classification models to estimate diabetes risk. Analyzed feature importance to
+        highlight key contributors for clinician review.
+      </p>
+      <p><strong>Tech Stack:</strong> Python, Pandas, scikit-learn</p>
+      <p><strong>Results &amp; Impact:</strong></p>
+      <ul>
+        <li>Built an interpretable risk scoring framework for early screening</li>
+        <li>Identified key predictors influencing diabetes risk</li>
+        <li>Demonstrated how machine learning can support clinical decision-making</li>
+      </ul>
+      <p>
+        <strong>What I'd Improve Next:</strong> Incorporate longitudinal patient data and evaluate
+        calibration across demographic cohorts.
+      </p>
+      <div class="case-visuals">
+        <img src="./assets/project-diabetes.svg" alt="Diabetes prediction visualization" />
+        <img src="./assets/diabeticsmetrics.png" alt="Diabetes model metrics" />
+      </div>
+    </template>
+    <template id="case-brain">
+      <h3>Brain Tumor Detection Using CNN</h3>
+      <p>
+        <strong>Problem:</strong> Manual review of MRI scans is time-intensive and subject to
+        variability, motivating the need for automated screening support.
+      </p>
+      <p>
+        <strong>Approach:</strong> Designed a convolutional neural network pipeline for brain
+        tumor classification using MRI images. Implemented training, validation, and evaluation
+        workflows to assess model performance.
+      </p>
+      <p><strong>Tech Stack:</strong> PyTorch, CNNs, Computer Vision</p>
+      <p><strong>Results &amp; Impact:</strong></p>
+      <ul>
+        <li>Built an end-to-end deep learning pipeline for medical image classification</li>
+        <li>Evaluated performance using clinically relevant metrics</li>
+        <li>Demonstrated feasibility of automated MRI screening support</li>
+      </ul>
+      <p>
+        <strong>What I'd Improve Next:</strong> Expand dataset diversity, test advanced
+        architectures, and evaluate real-world generalization.
+      </p>
+      <div class="case-visuals">
+        <img src="./assets/project-brain.svg" alt="Brain tumor detection chart" />
+        <img src="./assets/braintumormetrics.png" alt="Model performance chart" />
+      </div>
+    </template>
+    <template id="case-churn">
+      <h3>Customer Churn Prediction</h3>
+      <p>
+        <strong>Problem:</strong> Customer attrition impacts revenue and growth, making early churn
+        detection essential for retention strategies.
+      </p>
+      <p>
+        <strong>Approach:</strong> Built churn prediction models and segmented customers into risk
+        cohorts. Generated churn scores to prioritize retention efforts and inform business
+        strategy.
+      </p>
+      <p><strong>Tech Stack:</strong> Python, Machine Learning, Classification</p>
+      <p><strong>Results &amp; Impact:</strong></p>
+      <ul>
+        <li>Identified high-risk customer segments for targeted retention efforts</li>
+        <li>Provided cohort-based insights to support business planning</li>
+        <li>Demonstrated application of ML in customer analytics</li>
+      </ul>
+      <p>
+        <strong>What I'd Improve Next:</strong> Incorporate behavioral time-series features and
+        test uplift or causal modeling approaches.
+      </p>
+      <div class="case-visuals">
+        <img src="./assets/project-churn.svg" alt="Churn prediction dashboard" />
+        <img src="./assets/customerchurnmetrics.png" alt="Churn model metrics" />
+      </div>
+    </template>
+    <template id="case-apple-maps">
+      <h3>Apple Maps Experience Intelligence</h3>
+      <p>
+        <strong>Problem:</strong> Understanding user experience issues at scale is critical for improving navigation quality, map accuracy, and overall product satisfaction.
+      </p>
+      <p>
+        <strong>Approach:</strong> Analyzed large-scale user feedback and issue reports using Python-based data analysis workflows. Performed exploratory analysis, trend segmentation, and aggregation to identify recurring experience pain points across regions and issue categories. Synthesized findings into structured insights aligned with product improvement objectives.
+      </p>
+      <p><strong>Tech Stack:</strong> Python, Pandas, Exploratory Data Analysis, Data Visualization</p>
+      <p>
+        <strong>Results &amp; Impact:</strong>
+      </p>
+      <ul>
+        <li>Identified recurring user experience pain points impacting navigation and map quality</li>
+        <li>Surfaced regional and category-level trends to support product prioritization</li>
+        <li>Demonstrated how data analysis can inform product and UX decision-making</li>
+      </ul>
+      <p>
+        <strong>What I'd Improve Next:</strong> Incorporate sentiment analysis on text feedback, real-time monitoring, and experimentation to measure the impact of product changes.
+      </p>
+      <div class="case-visuals">
+        <img src="./assets/project-apple-maps.svg" alt="Apple Maps experience summary" />
+      </div>
+    </template>
+    <template id="case-insurance-rag">
+      <h3>Insurance Claims Intelligence (RAG-Based)</h3>
+      <p>
+        <strong>Problem:</strong> Insurance claim analysts and customers need fast, accurate answers grounded in policy documents and claim guidelines. Generic LLM responses risk hallucination and lack regulatory reliability.
+      </p>
+      <p>
+        <strong>Approach:</strong> Built a Retrieval-Augmented Generation (RAG) system that combines document retrieval with large language model generation. Ingested insurance policy documents and claim guidelines, chunked and embedded text, and retrieved relevant context to ground LLM responses. Designed prompt templates to ensure factual, document-backed answers for claim-related queries.
+      </p>
+      <p><strong>Tech Stack:</strong> Python, RAG Architecture, LLMs, Embeddings, Vector Search</p>
+      <p><strong>Results &amp; Impact:</strong></p>
+      <ul>
+        <li>Enabled document-grounded question answering for insurance claim scenarios</li>
+        <li>Reduced hallucination risk by grounding responses in retrieved policy context</li>
+        <li>Demonstrated practical application of LLMs in regulated, knowledge-heavy domains</li>
+      </ul>
+      <p>
+        <strong>What I'd Improve Next:</strong> Add evaluation metrics for retrieval quality, introduce feedback loops for answer validation, and deploy a lightweight UI for analyst interaction.
+      </p>
+      <div class="case-visuals">
+        <img src="./assets/project-insurance.svg" alt="Insurance claims intelligence summary" />
+      </div>
+    </template>
+    <template id="case-segmentation">
+      <h3>Customer Segmentation Using Clustering</h3>
+      <p>
+        <strong>Problem:</strong> Businesses need clear customer segments to tailor marketing, personalization, and retention strategies effectively.
+      </p>
+      <p>
+        <strong>Approach:</strong> Segmented customers using behavioral and demographic data with clustering methods to uncover distinct customer groups and inform targeted actions.
+      </p>
+      <p><strong>Tech Stack:</strong> Python, Clustering, Customer Analytics, Business Insights</p>
+      <p><strong>Results &amp; Impact:</strong></p>
+      <ul>
+        <li>Identified distinct customer groups to improve targeting and personalization</li>
+        <li>Clarified behavioral patterns that inform retention strategies</li>
+        <li>Enabled data-driven audience planning for marketing teams</li>
+      </ul>
+      <p>
+        <strong>What I'd Improve Next:</strong> Add profile-based validation, automate refresh cadence, and connect segments to campaign performance tracking.
+      </p>
+      <div class="case-visuals">
+        <img src="./assets/project-segmentation.svg" alt="Customer segmentation overview" />
+      </div>
+    </template>
+    <template id="case-crime">
+      <h3>Crime Trends in Los Angeles</h3>
+      <p>
+        <strong>Problem:</strong> Understanding crime patterns is essential for public safety
+        planning and resource allocation.
+      </p>
+      <p>
+        <strong>Approach:</strong> Analyzed historical crime data to identify seasonal trends,
+        geographic hotspots, and clearance rates. Built interactive Tableau dashboards for
+        exploratory analysis.
+      </p>
+      <p><strong>Tech Stack:</strong> Tableau, Data Visualization</p>
+      <p><strong>Results &amp; Impact:</strong></p>
+      <ul>
+        <li>Surfaced spatial and temporal crime patterns</li>
+        <li>Enabled intuitive exploration of crime trends via dashboards</li>
+        <li>Supported data-driven insights into public safety dynamics</li>
+      </ul>
+      <p>
+        <strong>What I'd Improve Next:</strong> Add predictive components and integrate demographic
+        or socioeconomic datasets.
+      </p>
+      <div class="case-visuals">
+        <img src="./assets/project-crime.svg" alt="Crime analytics dashboard" />
+        <img src="./assets/losanglmetrics.png" alt="Crime trend snapshot" />
+      </div>
+    </template>
 
-				</div>
-			</div>
-		</section>
-	</main>
-</body>
+    <script src="./scripts.js"></script>
+  </body>
 </html>
